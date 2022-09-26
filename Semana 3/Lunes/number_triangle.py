@@ -1,7 +1,7 @@
 number = input("Please enter a number: ")
 aux = 1
 
-if number.isnumeric():
+if number.isnumeric(): 
     number = int(number)
     number= number+1
     for number in range(1,number,2):

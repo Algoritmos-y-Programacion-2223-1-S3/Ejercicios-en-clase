@@ -3,7 +3,7 @@ aux = 1
 
 if number.isnumeric():
     number = int(number)
-    while aux <= number:
+    while aux <= number: 
         if aux + 2 > number:
             print(aux)
         else:
